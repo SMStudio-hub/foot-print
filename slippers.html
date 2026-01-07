@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot Print 👣🐾 | Special Offers & Quality Slippers</title>
+    <style>
+        :root {
+            --wa-green: #25D366;
+            --brand-dark: #1a1a1a;
+            --accent: #ff4757;
+            --gold: #f1c40f;
+            --offer-bg: #eb4d4b;
+            --light-bg: #f8f9fa;
+        }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: var(--light-bg); color: #333; scroll-behavior: smooth; }
+        
+        /* Special Offer Banner */
+        .promo-banner {
+            background: var(--offer-bg);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-weight: bold;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+
+        header { background: var(--brand-dark); color: #fff; padding: 50px 20px; text-align: center; border-bottom: 5px solid var(--wa-green); }
+        .logo-text { font-size: 3.5rem; margin: 0; font-weight: 800; }
+        
+        .container { max-width: 1100px; margin: auto; padding: 40px 20px; }
+        h2 { text-align: center; margin: 50px 0 30px; font-size: 2rem; position: relative; }
+        h2::after { content: ''; width: 50px; height: 3px; background: var(--wa-green); position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); }
+
+        /* Product Grid */
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px; }
+        .product-card { background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: 0.4s; position: relative; border: 1px solid #eee; }
+        .product-card:hover { transform: translateY(-10px); }
+        
+        .img-container { width: 100%; height: 250px; display: flex; align-items: center; justify-content: center; padding: 10px; background: #fff; }
+        .img-container img { max-width: 100%; max-height: 100%; object-fit: contain; }
+        
+        .price-badge { position: absolute; top: 15px; right: 15px; background: var(--accent); color: white; padding: 5px 15px; border-radius: 50px; font-weight: bold; z-index: 10; }
+        .details { padding: 20px; text-align: center; }
+        .details h3 { margin: 10px 0; font-size: 1.2rem; }
+        .btn-whatsapp { display: block; background: var(--wa-green); color: white; text-decoration: none; padding: 12px; border-radius: 12px; font-weight: bold; margin-top: 10px; transition: 0.3s; }
+        .btn-whatsapp:hover { background: #128C7E; }
+
+        /* FAQ Section */
+        .faq-container { max-width: 800px; margin: 0 auto; }
+        .faq-item { background: white; margin-bottom: 15px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); }
+        .faq-item h3 { margin: 0 0 10px; font-size: 1.1rem; color: var(--brand-dark); display: flex; align-items: center; }
+        .faq-item h3::before { content: '❓'; margin-right: 10px; }
+        .faq-item p { margin: 0; color: #666; line-height: 1.5; }
+
+        /* Floating Button */
+        .floating-wa { position: fixed; bottom: 30px; right: 30px; background: var(--wa-green); color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; box-shadow: 0 10px 25px rgba(37,211,102,0.4); z-index: 100; text-decoration: none; }
+        
+        footer { background: var(--brand-dark); color: #888; text-align: center; padding: 60px 20px; margin-top: 50px; }
+        .bulk-notice { color: var(--wa-green); font-weight: bold; margin-bottom: 20px; display: block; }
+    </style>
+</head>
+<body>
+
+<div class="promo-banner">
+    🎉 FESTIVAL SPECIAL: BUY 2 GET 10% OFF | FREE DELIVERY ON ORDERS ABOVE ₹500 👣
+</div>
+
+<a href="https://wa.me/919876543210" class="floating-wa">💬</a>
+
+<header>
+    <h1 class="logo-text">Foot Print 👣🐾</h1>
+    <p>Premium Quality Slippers for Your Family</p>
+</header>
+
+<div class="container">
+    
+    <section id="products">
+        <h2>Our Best Sellers</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <div class="price-badge">₹199</div>
+                <div class="img-container"><img src="project 1/1000071875.jpg" alt="Slipper"></div>
+                <div class="details">
+                    <h3>Stout Art-G124</h3>
+                    <a href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20order%20Stout%20Art-G124" class="btn-whatsapp">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="price-badge">₹249</div>
+                <div class="img-container"><img src="project 1/1000071888.jpg" alt="Slipper"></div>
+                <div class="details">
+                    <h3>Rose Floral Pink</h3>
+                    <a href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20order%20Rose%20Floral" class="btn-whatsapp">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="price-badge">₹149</div>
+                <div class="img-container"><img src="project 1/1000071885.jpg" alt="Slipper"></div>
+                <div class="details">
+                    <h3>Kids Mickey Edition</h3>
+                    <a href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20order%20Kids%20Mickey" class="btn-whatsapp">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="price-badge">₹299</div>
+                <div class="img-container"><img src="project 1/1000071908.jpg" alt="Slipper"></div>
+                <div class="details">
+                    <h3>Hindalite Prime</h3>
+                    <a href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20order%20Hindalite%20Prime" class="btn-whatsapp">Order on WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>Questions? (FAQ)</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>How do I place an order?</h3>
+                <p>Click the "Order on WhatsApp" button. It will open WhatsApp with the product name ready. Just send the message!</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are the delivery charges?</h3>
+                <p>FREE delivery on orders above ₹500. Otherwise, a small fee of ₹50 applies.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I pay?</h3>
+                <p>We accept Google Pay, PhonePe, Paytm, and Bank Transfers.</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <span class="bulk-notice">📦 FOR WHOLESALE / BULK ORDERS (12+ PAIRS), CONTACT US!</span>
+    <p><strong>Foot Print 👣🐾 Footwear</strong></p>
+    <p>Contact: +91 98765 43210</p>
+    <p>&copy; 2024 Foot Print. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
